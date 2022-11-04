@@ -42,6 +42,7 @@ class ArrearsItemCrudController extends CrudController
     {
         CRUD::column('name');
         CRUD::column('arrears_master_id');
+        CRUD::column('arrears_master_name');
         CRUD::column('created_at');
         CRUD::column('updated_at');
 
